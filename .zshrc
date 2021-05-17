@@ -105,6 +105,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias ssha='eval $(ssh-agent) && ssh-add'
+alias soup="sudo apt update && sudo apt update"
 
 # vim and emacs
 alias em="/usr/bin/emacs -nw"
