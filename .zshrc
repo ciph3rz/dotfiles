@@ -78,6 +78,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 plugins=(git zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
+source ~/.aliases
 
 # User configuration
 
@@ -105,7 +106,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias ssha='eval $(ssh-agent) && ssh-add'
-alias soup="sudo apt update && sudo apt update"
+alias soup="sudo apt update && sudo apt upgrade"
 
 # vim and emacs
 alias em="/usr/bin/emacs -nw"
