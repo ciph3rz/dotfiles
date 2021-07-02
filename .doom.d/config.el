@@ -273,3 +273,7 @@ text and copying to the killring."
 ;; Babel configuration NEW
 (setq org-babel-load-languages (quote ((emacs-lisp . t) (sh . t))))
 )
+;; Transparent wallpaper Attempt
+(set-frame-parameter (selected-frame) 'alpha '(92 . 90))
+
+(add-to-list 'default-frame-alist '(alpha . (92 . 90)))
