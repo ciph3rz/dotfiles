@@ -7,7 +7,7 @@
 ;; Some functionality uses this to identify you, e.g. GPG configuration, email
 ;; clients, file templates and snippets.
 (setq user-full-name "edworks"
-      user-mail-address "edworks@gmx.net")
+      user-mail-address "edworks@tribal-odyssey.com")
 
 ;; Doom exposes five (optional) variables for controlling fonts in Doom. Here
 ;; are the three important ones:
@@ -24,7 +24,15 @@
 (setq doom-font (font-spec :family "Source Code Pro" :size 18)
       ;;doom-variable-pitch-font (font-spec :family "Overpass" :size 18)
       doom-variable-pitch-font (font-spec :family "ETBembo" :size 18)
-      doom-serif-font (font-spec :family "Iosevka"))
+      doom-serif-font (font-spec :family "Iosevka")
+      doom-big-font (font-spec :family "Source Code Pro" :size 24))
+(after! doom-themes
+  (setq doom-themes-enable-bold t
+        doom-themes-enable-italic t))
+(custom-set-faces!
+  '(font-lock-comment-face :slant italic)
+  '(font-lock-keyword-face :slant italic))
+
 
   (custom-theme-set-faces
    'user
