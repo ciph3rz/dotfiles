@@ -141,10 +141,12 @@
        (org               ; organize your plain life in plain text
        +dragndrop       ; drag & drop files/images into org buffers
        +org-bullets
+       +journal
        +noter
        +hugo              ; use Emacs for hugo blogging
        +pandoc
-       +present)           ; using org-mode for presentations
+       +present           ; using org-mode for presentations
+       +roam)
        ;;perl              ; write code no one else can comprehend
        ;;php               ; perl's insecure younger brother
        ;;plantuml          ; diagrams for confusing people more

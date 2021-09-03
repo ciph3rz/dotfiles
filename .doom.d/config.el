@@ -226,7 +226,20 @@ text and copying to the killring."
 	(setq org-list=description-max-ident 5)
 	;; prvent demoting heading also shifting text inside  sections
 	(setq org-adapt-indentation nil)
-
+;; Roam Settings
+(setq org-roam-directory "~/org/RoamNotes")
+(setq org-roam-completion-everywhere t)
+;; (setq org-capture-templates
+;;       '(("d" "default" plain
+;;       "%?"
+;;       :if-new (file+head "%<%Y%m%d%H%M%S>-${slug}.org" "#+title: ${title}\n")
+;;       :unnarrowed t))
+;;       '("p" "project" plain "* Goals\n\n%?\n\n* Tasks\n\n** TODO Add initial tasks\n\n* Dates\n\n"
+;;        :if-new (file+head "%<%Y%m%d%H%M%S>-${slug}.org" "#+title: ${title}\n#+filetags: Project")
+;;        :unnarrowed t)
+;;       )
+;; (
+;;
 ;; This determines the style of line numbers in effect. If set to `nil', line
 ;; numbers are disabled. For relative line numbers, set this to `relative'.
 (setq display-line-numbers-type t)
