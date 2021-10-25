@@ -21,11 +21,11 @@
 ;; font string. You generally only need these two:
 ;; (setq doom-font (font-spec :family "monospace" :size 14))
 ;; (setq doom-font (font-spec :family "Iosevka" :size 14)
-(setq doom-font (font-spec :family "Source Code Pro" :size 18)
+(setq doom-font (font-spec :family "Source Code Pro for Powerline" :size 18)
       ;;doom-variable-pitch-font (font-spec :family "Overpass" :size 18)
       doom-variable-pitch-font (font-spec :family "ETBembo" :size 18)
       doom-serif-font (font-spec :family "Iosevka")
-      doom-big-font (font-spec :family "Source Code Pro" :size 24))
+      doom-big-font (font-spec :family "Source Code Pro for Powerline" :size 24))
 (after! doom-themes
   (setq doom-themes-enable-bold t
         doom-themes-enable-italic t))

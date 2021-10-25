@@ -22,8 +22,8 @@
        company           ; the ultimate code completion backend
        ;;helm              ; the *other* search engine for love and life
        ;;ido               ; the other *other* search engine...
-       ivy               ; a search engine for love and life
-
+       (ivy               ; a search engine for love and life
+        +fuzzy)
        :ui
        deft              ; notational velocity for Emacs
        doom              ; what makes DOOM look the way it does
@@ -146,7 +146,7 @@
        +hugo              ; use Emacs for hugo blogging
        +pandoc
        +present           ; using org-mode for presentations
-       +roam)
+       +roam2)
        ;;perl              ; write code no one else can comprehend
        ;;php               ; perl's insecure younger brother
        ;;plantuml          ; diagrams for confusing people more
@@ -182,3 +182,7 @@
        :config
        ;;literate
        (default +bindings +smartparens))
+
+;; add to $DOOMDIR/init.el
+(defvar native-comp-deferred-compilation-deny-list nil)
+
