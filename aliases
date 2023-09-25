@@ -27,6 +27,8 @@ alias psmem10='ps auxf | sort -nr -k 4 | head -'
 alias pscpu='ps auxf | sort -nr -k 3'
 alias pscpu10='ps auxf | sort -nr -k 3 | head -10'
 
+## Docker Compose Shortcuts
+alias dc="docker-compose"
 
 # git
 alias addup='git add -u'
