@@ -13,7 +13,7 @@ dir=$HOME/code/dotfiles
 olddir=$HOME/code/bak/dotfiles-old
 
 # list of files/folders to symlink in homedir
-files="aliases config doom.d p10k.zsh zshrc bashrc gitconfig functions"
+files="aliases doom.d p10k.zsh zshrc bashrc gitconfig functions"
 
 ##########
 
