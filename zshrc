@@ -113,8 +113,7 @@ alias dotfiles='/usr/bin/git --git-dir=/home/edworks/.dotfiles/ --work-tree=/hom
 
 typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
 neofetch | lolcat
-export PATH=$PATH:~/.emacs.d/bin
-export PATH="/opt/homebrew/sbin:$PATH"
+export PATH=$PATH:~/.emacs.d/bin:/opt/homebrew/sbin:~/.config/bin
 
 if [[ $TERM_PROGRAM == "WarpTerminal" ]]; then
     eval "$(starship init zsh)"
